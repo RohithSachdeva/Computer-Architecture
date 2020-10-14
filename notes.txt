@@ -124,3 +124,27 @@ x = 0b110 -> 6 in decimal
 
 1 hex digit === 4 binary digits; you need to have 4 there 
 
+TUESDAY LECTURE -
+-----------------
+18 mins
+Moves his program to another file
+Showing that we can use this CPU later to access different programs
+In both scenarios, Lecture and our assignment so far... our memory is hardcoded.  We will change that 
+
+Well get our CPU to do different things 
+Need to change our load function on the CPU class
+
+with open("prog1") as f:
+  for line in f:
+    line = line.strip()
+    print(line)
+
+sys.exit(0)
+
+
+
+value = int(str_value, 2) ---> To utilize binary in the ls8 files
+#base 2 
+
+BREAK ... then going into bitwise operations
+
